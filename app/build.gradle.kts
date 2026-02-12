@@ -42,4 +42,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    //testImplementation("junit:junit:4.13.2")
+    androidTestImplementation("org.junit.jupiter:junit-jupiter-api:5.0.1")
+    androidTestRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.0.1")
 }
